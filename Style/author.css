@@ -1,0 +1,73 @@
+.author{
+	max-width: 620px;
+	margin: 0 auto;
+
+	text-align: center;
+
+	padding-bottom: 150px;
+}
+
+.author__table--id{
+	padding: 20px 50px;
+	font-size: 20px;
+}
+
+.author__table--author{
+	padding: 20px 150px;
+	font-size: 20px;
+}
+
+.author__table tr{
+	font-size: 18px;
+}
+
+.author__table td{
+	padding: 8px;
+}
+
+.create{
+	padding-top: 200px;
+}
+
+.author__input{
+	border: none;
+    width: 40%;
+    outline: none;
+    opacity: 0.7;
+    background: linear-gradient(45deg, #003e6a00, #0898ff33);
+    border-radius: 15px;
+	box-shadow: 0px 0px 8px 0px #b9b1b1;
+	padding: 10px 20px;
+}
+
+.author__input:active{
+	box-shadow: 0px 0px 20px 0px #b9b1b1;
+}
+
+.create .author__submit{
+	position: relative;
+	padding: 15px 56px;
+	margin: 0 40px;
+}
+
+.container__title{
+	padding-top: 150px;
+}
+
+.author__table tr a{
+	font-size: 20px;
+	text-decoration: none;
+	color: skyblue;
+
+	opacity: 0.7;
+	transition: all .3s ease;
+}
+
+.author__table tr a:hover{
+	opacity: 1;
+	color:#1431ff;
+}
+
+.author__table a:hover tr{
+	border: 1px solid black;
+}
